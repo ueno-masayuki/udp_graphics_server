@@ -8,8 +8,9 @@ UDP packet based graphics server for command based programming language educatio
 1. Export as Application
 
 ## How to use
-Check sample.cs
-<img src="screenshot.png" alt="screenshot" title="screenshot" width="200" height="200">
+Check sample.cs  
+The result is  
+<img src="screenshot.png" alt="screenshot" title="screenshot" width="400" height="400">
 
 ## Interface code for C# language
 	class graph {
