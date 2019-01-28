@@ -9,7 +9,7 @@ UDP packet based graphics server for command based programming language educatio
 
 ## How to use
 Check sample.cs
-<img src="attach:screenshot.png" alt="attach:screenshot" title="attach:screenshot" width="200" height="200">
+<img src="screenshot.png" alt="screenshot" title="screenshot" width="200" height="200">
 
 ## Interface code for C# language
 	class graph {
