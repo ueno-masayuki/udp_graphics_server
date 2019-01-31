@@ -55,4 +55,11 @@ The result is
 			sendMsg( string.Format( "lcolor {0} {1} {2}" , r , g , b ));
 		}
 	}
+	class test {
+		static void Main(string[] args){
+			graph g = new graph();
+			g.pcolor( 255 , 0 , 0 );        // RED
+			g.rect( 100 , 100 , 100 , 100); // a rectangle
+		}
+	}
 
