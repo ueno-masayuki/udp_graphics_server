@@ -13,6 +13,9 @@ The result is
 <img src="screenshot.png" alt="screenshot" title="screenshot" width="400" height="400">
 
 ## Interface code for C# language
+	using System;
+	using System.Threading;
+	
 	class graph {
 		string host = "127.0.0.1";
 		int    port = 10000;
