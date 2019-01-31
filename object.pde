@@ -24,6 +24,10 @@ class object {
       stroke( args[0] , args[1] , args[2] );
     }else if( op.equals( "clear" )){
       background( 255 );
+    }else if( op.equals( "reset" )){
+      fill( 255, 255, 255 );
+      stroke( 0, 0, 0 );
+      background( 255 );
     }
     drawn = true;
   }
