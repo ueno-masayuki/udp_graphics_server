@@ -3,7 +3,7 @@ UDP packet based graphics server for command based programming language educatio
 グラフィックスの機能を持たないコマンドベースのプログラミング言語環境（例えば，CodeRunnerなど）で，UDPパケット経由でグラフィックスを表示するサーバ
 
 ## How to build
-1. Open pde files on Processing (verified on ver.3.5.2)
+1. Open pde files on Processing (verified on ver.3.5.3)
 1. Install "UDP" Library developed by Stephane from Contribution Manager
 1. Export as Application
 
@@ -41,6 +41,7 @@ class graph {
 	public void line( int x1 , int y1 , int x2 , int y2 ){sendMsg( string.Format( "line {0} {1} {2} {3}" , x1 , y1 , x2 , y2 ));}
 	public void rect( int x , int y , int w , int h ){sendMsg( string.Format( "rect {0} {1} {2} {3}" , x , y , w , h ));}
 	public void oval( int x , int y , int w , int h ){sendMsg( string.Format( "oval {0} {1} {2} {3}" , x , y , w , h ));}	
+	public void bgcolor( int r , int g , int b ){sendMsg( string.Format( "bgcolor {0} {1} {2}" , r , g , b ));}
 	public void pcolor( int r , int g , int b ){sendMsg( string.Format( "pcolor {0} {1} {2}" , r , g , b ));}
 	public void lcolor( int r , int g , int b ){sendMsg( string.Format( "lcolor {0} {1} {2}" , r , g , b ));}
 }
