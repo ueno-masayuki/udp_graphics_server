@@ -22,9 +22,17 @@ class object {
       fill( args[0] , args[1] , args[2] );
     }else if( op.equals( "lcolor" ) ){
       stroke( args[0] , args[1] , args[2] );
+    }else if( op.equals( "bgcolor" ) ){
+      bgcolor[0] = args[0];
+      bgcolor[1] = args[1];
+      bgcolor[2] = args[2];
+      background( bgcolor[0], bgcolor[1], bgcolor[2] );
     }else if( op.equals( "clear" )){
-      background( 255 );
+      background( bgcolor[0], bgcolor[1], bgcolor[2] );
     }else if( op.equals( "reset" )){
+      bgcolor[0] = 255;
+      bgcolor[1] = 255;
+      bgcolor[2] = 255;
       fill( 255, 255, 255 );
       stroke( 0, 0, 0 );
       background( 255 );
